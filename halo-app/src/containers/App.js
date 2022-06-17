@@ -28,6 +28,7 @@ function App() {
     return (
       <div className="tc">
         <h1 className="f1">RoboFriends</h1>
+        <button onClick={setCount}>Click Me!</button>
         <SearchBox searchChange={onSearchChange} />
         <Scroll>
           <ErroBoundary>
